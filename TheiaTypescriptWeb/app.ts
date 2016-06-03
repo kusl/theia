@@ -12,18 +12,18 @@
         this.span = document.createElement('span');
         this.element.appendChild(this.span);
         this.span.innerText = new Date().toUTCString();
-        this.stopButton.value = "Stop";
+        this.stopButton.innerHTML = "Stop";
     }
 
     start() {
         this.isRunning = true;
-        this.stopButton.value = "Stop";
+        this.stopButton.innerHTML = "Stop";
         this.timerToken = setInterval(() => this.span.innerHTML = new Date().toLocaleString(), 100);
     }
 
     stop() {
         this.isRunning = false;
-        this.stopButton.value = "Start";
+        this.stopButton.innerHTML = "Start";
         clearTimeout(this.timerToken);
     }
 

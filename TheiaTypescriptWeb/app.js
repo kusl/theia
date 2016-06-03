@@ -6,17 +6,17 @@ var Greeter = (function () {
         this.span = document.createElement('span');
         this.element.appendChild(this.span);
         this.span.innerText = new Date().toUTCString();
-        this.stopButton.value = "Stop";
+        this.stopButton.innerHTML = "Stop";
     }
     Greeter.prototype.start = function () {
         var _this = this;
         this.isRunning = true;
-        this.stopButton.value = "Stop";
+        this.stopButton.innerHTML = "Stop";
         this.timerToken = setInterval(function () { return _this.span.innerHTML = new Date().toLocaleString(); }, 100);
     };
     Greeter.prototype.stop = function () {
         this.isRunning = false;
-        this.stopButton.value = "Start";
+        this.stopButton.innerHTML = "Start";
         clearTimeout(this.timerToken);
     };
     return Greeter;
