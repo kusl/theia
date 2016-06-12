@@ -7,13 +7,19 @@
         mc:Ignorable="d"
         Title="Main Window" Height="768" Width="1366">
     <Grid>
-        <StackPanel Width="auto" Height="50" Background="RosyBrown" VerticalAlignment="Top"  Orientation="Vertical">
-            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
-                <TextBlock Width="100" Height="50" HorizontalAlignment="Left">LOGO</TextBlock>
-                <TextBox Width="400" Height="50" HorizontalAlignment="Left">Search</TextBox>
-                <Button Width="50" Height="50" HorizontalAlignment="Left">🔍</Button>
-                <TextBlock Width="50" Height="50" HorizontalAlignment="Right">Account</TextBlock>
-            </StackPanel>
+        <StackPanel Width="auto" Background="RosyBrown" VerticalAlignment="Top"  Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock  Grid.Column="0">LOGO</TextBlock>
+                <TextBox Grid.Column="1">Search</TextBox>
+                <Button  Grid.Column="2">🔍</Button>
+                <TextBlock  Grid.Column="3">Account</TextBlock>
+            </Grid>
         </StackPanel>
     </Grid>
 </Window>
