@@ -9,19 +9,10 @@
     <Grid>
         <StackPanel Width="auto" Height="50" Background="RosyBrown" VerticalAlignment="Top"  Orientation="Vertical">
             <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
-                <Button Width="100" Height="50" HorizontalAlignment="Left">LOGO</Button>
-            </StackPanel>
-            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
-                <TextBox Width="500" Height="50" HorizontalAlignment="Left" Text="Search"></TextBox>
-            </StackPanel>
-            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
-                <Button Width="136" Height="50" HorizontalAlignment="Left">🔍</Button>
-            </StackPanel>
-            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
-                <Button Width="136" Height="50" HorizontalAlignment="Right">Logout</Button>
-            </StackPanel>
-            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
-                <Button Width="136" Height="50" HorizontalAlignment="Right">Apple</Button>
+                <TextBlock Width="100" Height="50" HorizontalAlignment="Left">LOGO</TextBlock>
+                <TextBox Width="400" Height="50" HorizontalAlignment="Left">Search</TextBox>
+                <Button Width="50" Height="50" HorizontalAlignment="Left">🔍</Button>
+                <TextBlock Width="50" Height="50" HorizontalAlignment="Right">Account</TextBlock>
             </StackPanel>
         </StackPanel>
     </Grid>

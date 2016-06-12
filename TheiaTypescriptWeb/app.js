@@ -23,14 +23,8 @@ window.onload = function () {
     var btn1 = document.getElementsByName("btnStop")[0];
     var greeter = new Greeter(el);
     greeter.start();
-    var myEl = document.getElementById('btnStop');
-    myEl.addEventListener('click', function () {
-        if (greeter.isRunning) {
-            greeter.stop();
-        }
-        else {
-            greeter.start();
-        }
+    alert("ok so far");
+    btn1.addEventListener('click', function () {
+        greeter.stop();
     }, false);
 };
-//# sourceMappingURL=app.js.map

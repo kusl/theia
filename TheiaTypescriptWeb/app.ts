@@ -3,7 +3,6 @@
     span: HTMLElement;
     timerToken: number;
     isRunning: boolean;
-
     constructor(element: HTMLElement) {
         this.isRunning = false;
         this.element = element;
@@ -30,15 +29,10 @@ window.onload = () => {
     var btn1 = (<HTMLButtonElement[]><any>document.getElementsByName("btnStop"))[0];
     var greeter = new Greeter(el);
     greeter.start();
+    alert("ok so far");
 
-    var myEl = document.getElementById('btnStop');
-
-    myEl.addEventListener('click', function () {
-        if (greeter.isRunning) {
-            greeter.stop();
-        }
-        else {
-            greeter.start();
-        }
+    btn1.addEventListener('click', function () {
+        //alert("ok so far");
+        greeter.stop();
     }, false);
 };
