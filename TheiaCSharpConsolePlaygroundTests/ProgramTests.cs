@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TheiaCSharpConsolePlayground;
 
 namespace TheiaCSharpConsolePlaygroundTests
 {
@@ -7,10 +8,11 @@ namespace TheiaCSharpConsolePlaygroundTests
     public class ProgramTests
     {
         [TestMethod]
-        public void MainReturns()
+        public void AddTwoNumbersTest()
         {
-            String[] args = { "apple", "ball" };
-            TheiaCSharpConsolePlayground.Program.Main(args);
+            int firstNumber = 3;
+            int secondNumber = 5;
+            Assert.AreEqual(firstNumber + secondNumber, Program.AddTwoNumbers(firstNumber: firstNumber, secondNumber: secondNumber));
         }
     }
 }
