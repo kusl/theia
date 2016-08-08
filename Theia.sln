@@ -16,6 +16,11 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TheiaFSharpPlayground", "Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheiaCSharpConsolePlayground", "TheiaCSharpConsolePlayground\TheiaCSharpConsolePlayground.csproj", "{B671D446-9637-47AE-A661-3F336555421D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheiaCSharpConsolePlaygroundTests", "TheiaCSharpConsolePlaygroundTests\TheiaCSharpConsolePlaygroundTests.csproj", "{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B671D446-9637-47AE-A661-3F336555421D} = {B671D446-9637-47AE-A661-3F336555421D}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +61,14 @@ Global
 		{B671D446-9637-47AE-A661-3F336555421D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B671D446-9637-47AE-A661-3F336555421D}.Release|x64.ActiveCfg = Release|Any CPU
 		{B671D446-9637-47AE-A661-3F336555421D}.Release|x64.Build.0 = Release|Any CPU
+		{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}.Debug|x64.Build.0 = Debug|Any CPU
+		{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}.Release|x64.ActiveCfg = Release|Any CPU
+		{C94B73A3-3ACE-4A3D-998A-B20BCEECBF49}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
