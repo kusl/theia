@@ -13,6 +13,7 @@ namespace TheiaCSharpConsolePlayground
             Console.WriteLine("Hello, world!");
             int[] inputNumbers = { 10, 20, 30, 40, 50 };
             Console.WriteLine(AddAllNumbersToStringInAscendingOrder(inputNumbers: inputNumbers));
+            var x = AddAllNumbersToStringInAscendingOrder(new int[] { 45, 35322, 4325, 999999999, 1337, 420 });
         }
 
         public static int AddTwoNumbers(int firstNumber, int secondNumber)
