@@ -25,6 +25,8 @@ window.onload = function () {
     greeter.start();
     alert("ok so far");
     btn1.addEventListener('click', function () {
+        //alert("ok so far");
         greeter.stop();
     }, false);
 };
+//# sourceMappingURL=app.js.map

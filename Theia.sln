@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheiaWPF", "TheiaWPF\TheiaWPF.csproj", "{2090CABF-E6F8-4619-A418-42BF5E9246AB}"
 EndProject
@@ -13,6 +13,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheiaTypescriptWeb", "TheiaTypescriptWeb\TheiaTypescriptWeb.csproj", "{F62B7AFF-7FF2-4769-9826-D69226313E30}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TheiaFSharpPlayground", "TheiaFSharpPlayground\TheiaFSharpPlayground.fsproj", "{C029CDBA-5ACB-4A69-A209-3B5134488C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheiaCSharpConsolePlayground", "TheiaCSharpConsolePlayground\TheiaCSharpConsolePlayground.csproj", "{B671D446-9637-47AE-A661-3F336555421D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,14 @@ Global
 		{C029CDBA-5ACB-4A69-A209-3B5134488C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C029CDBA-5ACB-4A69-A209-3B5134488C7F}.Release|x64.ActiveCfg = Release|Any CPU
 		{C029CDBA-5ACB-4A69-A209-3B5134488C7F}.Release|x64.Build.0 = Release|Any CPU
+		{B671D446-9637-47AE-A661-3F336555421D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B671D446-9637-47AE-A661-3F336555421D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B671D446-9637-47AE-A661-3F336555421D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B671D446-9637-47AE-A661-3F336555421D}.Debug|x64.Build.0 = Debug|Any CPU
+		{B671D446-9637-47AE-A661-3F336555421D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B671D446-9637-47AE-A661-3F336555421D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B671D446-9637-47AE-A661-3F336555421D}.Release|x64.ActiveCfg = Release|Any CPU
+		{B671D446-9637-47AE-A661-3F336555421D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
