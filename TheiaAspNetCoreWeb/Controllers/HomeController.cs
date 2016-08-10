@@ -31,5 +31,10 @@ namespace TheiaAspNetCoreWeb.Controllers
         {
             return View();
         }
+
+        public IActionResult GetOffer()
+        {
+            return View();
+        }
     }
 }
